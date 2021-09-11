@@ -1,0 +1,140 @@
+body {
+    background-color: lightseagreen;
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:lightseagreen;
+}
+
+h1 {
+    color: darkslategray;
+}
+
+.search {
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+input {
+    outline: none;
+    padding: 12px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 12px 10px;
+    background-color:mediumblue;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:blueviolet;
+  }
+
+
+.empty {
+    color: darkslategrey;
+  }
+
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: flex;
+  }
+  
+  li p {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .btn-delete {
+    margin-left: auto;
+    border: none;
+    background-color: #e31746;
+    color: white;
+    font-weight: bold;
+    padding: 12px 10px;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.2em;
+  }
+  
+  .btn-delete:hover {
+    cursor: pointer;
+    background-color: mediumblue;
+  }
+/* body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: lightseagreen;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: darkslategrey;
+}
+
+main {
+    margin-top: 30px;
+  margin-bottom: 30px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 30px;
+}
+
+.search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    padding: 12px 10px;
+    outline: none;
+    
+}
+
+.btn-add {
+    padding: 8px 15px;
+    border: none;
+    color: white;
+    font-family: fantasy;
+    background-color: teal;
+    font-size: 1.4rem;
+    outline: none;
+  }
+
+  .btn-add:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+  } */
